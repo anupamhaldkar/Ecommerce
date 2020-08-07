@@ -1,0 +1,107 @@
+2020-08-07 22:12:34.070  INFO 6200 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on NewPC with PID 6200 (D:\repository\eCommerceApplication\target\classes started by suuser in D:\repository\eCommerceApplication)
+2020-08-07 22:12:34.075  INFO 6200 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-08-07 22:12:35.487  INFO 6200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-07 22:12:35.568  INFO 6200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 4 repository interfaces.
+2020-08-07 22:12:36.296  INFO 6200 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$532048c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 22:12:36.681  INFO 6200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-07 22:12:36.741  INFO 6200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-07 22:12:36.741  INFO 6200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-07 22:12:36.976  INFO 6200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-07 22:12:36.976  INFO 6200 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2781 ms
+2020-08-07 22:12:37.188  INFO 6200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-07 22:12:37.289  INFO 6200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-07 22:12:37.360  INFO 6200 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-08-07 22:12:37.435  INFO 6200 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-08-07 22:12:37.437  INFO 6200 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-08-07 22:12:37.574  INFO 6200 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-08-07 22:12:37.739  INFO 6200 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-07 22:12:38.776  INFO 6200 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-07 22:12:39.594  INFO 6200 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50e6ee24, org.springframework.security.web.context.SecurityContextPersistenceFilter@4be7acd9, org.springframework.security.web.header.HeaderWriterFilter@3d3b4e09, org.springframework.web.filter.CorsFilter@7acb5200, org.springframework.security.web.authentication.logout.LogoutFilter@13cc31df, com.example.demo.security.JWTAuthenticationFilter@3d50a3d9, com.example.demo.security.JWTAuthorizationFilter@3661b732, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d79d187, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4be1dce6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5111f814, org.springframework.security.web.session.SessionManagementFilter@686fb58a, org.springframework.security.web.access.ExceptionTranslationFilter@4fef4f96, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f9ccd0c]
+2020-08-07 22:12:39.861  INFO 6200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 22:12:39.918  WARN 6200 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-07 22:12:40.223  INFO 6200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-07 22:12:40.229  INFO 6200 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.741 seconds (JVM running for 8.679)
+2020-08-07 22:13:14.582  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test"
+2020-08-07 22:13:14.587 ERROR   --- [main] c.e.demo.controllers.UserController      : Password must not be empty, must match and must be a minimum of 7 characters. Cannot create test
+2020-08-07 22:13:14.616 ERROR   --- [main] c.e.demo.controllers.UserController      : User not found with "test2"
+2020-08-07 22:13:14.617  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test3"
+2020-08-07 22:13:14.618  INFO   --- [main] c.e.demo.controllers.UserController      : "test3" created successfully
+2020-08-07 22:13:14.623  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test1"
+2020-08-07 22:13:14.623  INFO   --- [main] c.e.demo.controllers.UserController      : "test1" created successfully
+2020-08-07 22:13:14.625  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test"
+2020-08-07 22:13:14.625  INFO   --- [main] c.e.demo.controllers.UserController      : "test" created successfully
+2020-08-07 22:13:14.737 ERROR   --- [main] c.e.demo.controllers.ItemController      : No item found for the specified item name "iWatch"
+2020-08-07 22:13:14.745 ERROR   --- [main] c.e.demo.controllers.CartController      : Cart could not be added, "test" not found
+2020-08-07 22:13:14.747 ERROR   --- [main] c.e.demo.controllers.CartController      : Cart could not be removed, "test" not found
+2020-08-07 22:13:14.753  INFO   --- [main] c.e.demo.controllers.CartController      : Items removed from the cart successfully for "test"
+2020-08-07 22:13:14.754  INFO   --- [main] c.e.demo.controllers.CartController      : Card saved successfully for "test"
+2020-08-07 22:13:14.758  INFO   --- [main] c.e.demo.controllers.CartController      : Items added to the cart successfully for "test"
+2020-08-07 22:13:14.759  INFO   --- [main] c.e.demo.controllers.CartController      : Card saved successfully for "test"
+2020-08-07 22:13:14.860 ERROR   --- [main] c.e.demo.controllers.OrderController     : Order could not be saved, "test" not found
+2020-08-07 22:13:14.863 ERROR   --- [main] c.e.demo.controllers.OrderController     : Order history could not be retrieved, "test" not found
+2020-08-07 22:13:14.868  INFO   --- [main] c.e.demo.controllers.OrderController     : Order saved successfully for "test"
+2020-08-07 22:13:31.682  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test"
+2020-08-07 22:13:31.689 ERROR   --- [main] c.e.demo.controllers.UserController      : Password must not be empty, must match and must be a minimum of 7 characters. Cannot create test
+2020-08-07 22:13:31.720 ERROR   --- [main] c.e.demo.controllers.UserController      : User not found with "test2"
+2020-08-07 22:13:31.721  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test3"
+2020-08-07 22:13:31.722  INFO   --- [main] c.e.demo.controllers.UserController      : "test3" created successfully
+2020-08-07 22:13:31.728  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test1"
+2020-08-07 22:13:31.729  INFO   --- [main] c.e.demo.controllers.UserController      : "test1" created successfully
+2020-08-07 22:13:31.732  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test"
+2020-08-07 22:13:31.733  INFO   --- [main] c.e.demo.controllers.UserController      : "test" created successfully
+2020-08-07 22:13:31.873 ERROR   --- [main] c.e.demo.controllers.ItemController      : No item found for the specified item name "iWatch"
+2020-08-07 22:13:31.887 ERROR   --- [main] c.e.demo.controllers.CartController      : Cart could not be added, "test" not found
+2020-08-07 22:13:31.892 ERROR   --- [main] c.e.demo.controllers.CartController      : Cart could not be removed, "test" not found
+2020-08-07 22:13:31.900  INFO   --- [main] c.e.demo.controllers.CartController      : Items removed from the cart successfully for "test"
+2020-08-07 22:13:31.901  INFO   --- [main] c.e.demo.controllers.CartController      : Card saved successfully for "test"
+2020-08-07 22:13:31.905  INFO   --- [main] c.e.demo.controllers.CartController      : Items added to the cart successfully for "test"
+2020-08-07 22:13:31.905  INFO   --- [main] c.e.demo.controllers.CartController      : Card saved successfully for "test"
+2020-08-07 22:13:32.025 ERROR   --- [main] c.e.demo.controllers.OrderController     : Order could not be saved, "test" not found
+2020-08-07 22:13:32.029 ERROR   --- [main] c.e.demo.controllers.OrderController     : Order history could not be retrieved, "test" not found
+2020-08-07 22:13:32.036  INFO   --- [main] c.e.demo.controllers.OrderController     : Order saved successfully for "test"
+2020-08-07 22:13:54.039  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test"
+2020-08-07 22:13:54.048 ERROR   --- [main] c.e.demo.controllers.UserController      : Password must not be empty, must match and must be a minimum of 7 characters. Cannot create test
+2020-08-07 22:13:54.084 ERROR   --- [main] c.e.demo.controllers.UserController      : User not found with "test2"
+2020-08-07 22:13:54.086  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test3"
+2020-08-07 22:13:54.087  INFO   --- [main] c.e.demo.controllers.UserController      : "test3" created successfully
+2020-08-07 22:13:54.090  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test1"
+2020-08-07 22:13:54.092  INFO   --- [main] c.e.demo.controllers.UserController      : "test1" created successfully
+2020-08-07 22:13:54.095  INFO   --- [main] c.e.demo.controllers.UserController      : Username assigned as "test"
+2020-08-07 22:13:54.096  INFO   --- [main] c.e.demo.controllers.UserController      : "test" created successfully
+2020-08-07 22:14:04.275 ERROR   --- [main] c.e.demo.controllers.OrderController     : Order could not be saved, "test" not found
+2020-08-07 22:14:04.288 ERROR   --- [main] c.e.demo.controllers.OrderController     : Order history could not be retrieved, "test" not found
+2020-08-07 22:14:04.297  INFO   --- [main] c.e.demo.controllers.OrderController     : Order saved successfully for "test"
+2020-08-07 22:14:14.429 ERROR   --- [main] c.e.demo.controllers.ItemController      : No item found for the specified item name "iWatch"
+2020-08-07 22:14:28.417 ERROR   --- [main] c.e.demo.controllers.CartController      : Cart could not be added, "test" not found
+2020-08-07 22:14:28.459 ERROR   --- [main] c.e.demo.controllers.CartController      : Cart could not be removed, "test" not found
+2020-08-07 22:14:28.464  INFO   --- [main] c.e.demo.controllers.CartController      : Items removed from the cart successfully for "test"
+2020-08-07 22:14:28.464  INFO   --- [main] c.e.demo.controllers.CartController      : Card saved successfully for "test"
+2020-08-07 22:14:28.468  INFO   --- [main] c.e.demo.controllers.CartController      : Items added to the cart successfully for "test"
+2020-08-07 22:14:28.469  INFO   --- [main] c.e.demo.controllers.CartController      : Card saved successfully for "test"
+2020-08-07 22:15:12.108  INFO 3228 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on NewPC with PID 3228 (D:\repository\eCommerceApplication\target\classes started by suuser in D:\repository\eCommerceApplication)
+2020-08-07 22:15:12.113  INFO 3228 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-08-07 22:15:13.474  INFO 3228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-07 22:15:13.551  INFO 3228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 4 repository interfaces.
+2020-08-07 22:15:14.195  INFO 3228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f2b07f34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 22:15:14.500  INFO 3228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-08-07 22:15:14.533  INFO 3228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-07 22:15:14.533  INFO 3228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-08-07 22:15:14.682  INFO 3228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-07 22:15:14.683  INFO 3228 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2362 ms
+2020-08-07 22:15:14.877  INFO 3228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-07 22:15:14.995  INFO 3228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-07 22:15:15.051  INFO 3228 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-08-07 22:15:15.110  INFO 3228 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-08-07 22:15:15.112  INFO 3228 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-08-07 22:15:15.231  INFO 3228 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-08-07 22:15:15.377  INFO 3228 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-07 22:15:16.261  INFO 3228 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-07 22:15:16.972  INFO 3228 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@116915f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@696105c4, org.springframework.security.web.header.HeaderWriterFilter@17c34e62, org.springframework.web.filter.CorsFilter@27bbe773, org.springframework.security.web.authentication.logout.LogoutFilter@7dc92a06, com.example.demo.security.JWTAuthenticationFilter@328e50eb, com.example.demo.security.JWTAuthorizationFilter@2fcffc05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5edd9b4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dcd451f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76d0a290, org.springframework.security.web.session.SessionManagementFilter@6bf28f61, org.springframework.security.web.access.ExceptionTranslationFilter@3a5e4f32, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c316230]
+2020-08-07 22:15:17.168  INFO 3228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 22:15:17.208  WARN 3228 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-07 22:15:17.469  INFO 3228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-08-07 22:15:17.472  INFO 3228 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 6.022 seconds (JVM running for 8.316)
